@@ -12,8 +12,8 @@ import datetime
 from urllib.parse import urlencode
 import requests
 
-client_id = 'c8514eddb4234004838aab23f6ec3b04'
-client_secret = 'b79fbcd712ed4e5aa6a82f653a782f9d'
+client_id = 'CLIENT ID'
+client_secret = 'CLIENT SECRET ID'
 
 #main function
 class SpotifyAPI(object):
