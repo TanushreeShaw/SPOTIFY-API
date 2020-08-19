@@ -14,8 +14,8 @@ import datetime
 
 import base64
 
-client_id = 'c8514eddb4234004838aab23f6ec3b04'
-client_secret = 'b79fbcd712ed4e5aa6a82f653a782f9d'
+client_id = 'CLIENT ID'
+client_secret = 'CLIENT SECRET ID'
 
 client_creds = f"{client_id}:{client_secret}"
 type(client_creds)
