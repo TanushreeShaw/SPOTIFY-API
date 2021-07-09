@@ -26,7 +26,6 @@ class SpotifyAPI(object):
   client_secret = None
   token_url="https://accounts.spotify.com/api/token"
   
-#
   def __init__(self, client_id, client_secret, *args, **kwargs):
     super().__init__(*args, **kwargs)
     self.client_id = client_id
