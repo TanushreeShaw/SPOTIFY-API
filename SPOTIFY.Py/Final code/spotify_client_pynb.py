@@ -30,7 +30,7 @@ class SpotifyAPI(object):
     super().__init__(*args, **kwargs)
     self.client_id = client_id
     self.client_secret = client_secret
-#
+
   def get_client_credentials(self):
     """
     Returns a base64 encoded string
