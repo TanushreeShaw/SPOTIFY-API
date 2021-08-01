@@ -53,7 +53,7 @@ class SpotifyAPI(object):
     return  {
     "grant_type" : "client_credentials"
     }  
-#
+
   def perform_auth(self):
     token_url = self.token_url
     token_data = self.get_token_data()
