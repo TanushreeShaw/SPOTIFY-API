@@ -71,7 +71,7 @@ class SpotifyAPI(object):
     self.access_token_expires = expires
     self.access_token_did_expire = expires < now
     return True
-#
+
   def get_access_token(self):
     token = self.access_token
     expires = self.access_token_expires
