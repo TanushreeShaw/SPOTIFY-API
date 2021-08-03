@@ -83,7 +83,7 @@ class SpotifyAPI(object):
       self.perform_auth()
       return self.get_access_token()
     return token
-#  
+
   def get_resource_header(self):
     access_token = self.get_access_token()
     headers = {
