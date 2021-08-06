@@ -101,7 +101,7 @@ class SpotifyAPI(object):
 
   def get_album(self, _id):
     return self.get_resource(_id, resource_type = 'albums')
-#
+
   def get_artist(self, _id):
     return self.get_resource(_id, resource_type = 'artists')
 #
