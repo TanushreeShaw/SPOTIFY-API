@@ -104,7 +104,7 @@ class SpotifyAPI(object):
 
   def get_artist(self, _id):
     return self.get_resource(_id, resource_type = 'artists')
-#
+
   def base_search(self, query_params):   #type
     headers = self.get_resource_header()
     endpoint = "https://api.spotify.com/v1/search"
