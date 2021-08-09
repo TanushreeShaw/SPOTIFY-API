@@ -113,7 +113,7 @@ class SpotifyAPI(object):
     if r.status_code not in range(200, 299):
       return {} 
     return r.json()
-#
+
   def search(self,query=None, operator=None, operator_query=None, search_type='artist'):
     if query == None:
       raise Exception("A query is required") 
